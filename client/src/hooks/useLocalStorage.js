@@ -12,7 +12,7 @@ export const useLocalStorage = (key, defaultValue) => {
     })
   
     useEffect(() => {
-      window.localStorage.setItem('my-app-count', state)
+      window.localStorage.setItem('dark-mode', state)
     }, [state])
     return [state, setState]
   }

@@ -12,6 +12,7 @@ const DarkMode = () => {
       <h1>Women's World Cup Player Stats</h1>
       <div className="dark-mode__toggle">
         <button onClick={toggleMode}
+        label="toggle"
         data-testid="toggle"
           className={darkMode ? 'toggle toggled' : 'toggle'}>{darkMode === true ? "Light Mode" : "Dark Mode"}</button>
       </div>
